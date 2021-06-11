@@ -1,0 +1,8 @@
+cradle:
+  stack:
+    - path: "./app/lits.hs"
+      component: "lits:exe:lits"
+    - path: "./src"
+      component: "lits:lib"
+    - path: "./test/lits.hs"
+      component: "lits:test:lits"
